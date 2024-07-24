@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "672036589804",
+    "project_id": "jagdeep-portfolio",
+    "storage_bucket": "jagdeep-portfolio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672036589804:android:d7fa39ec2c8c4ffb0c95c9",
+        "android_client_info": {
+          "package_name": "com.bullseye"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGdNhpD2BX5Fox3fpy2Kyg5WcYsMYKFiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
