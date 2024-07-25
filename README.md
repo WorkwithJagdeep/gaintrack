@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Gaintrack
 
-## Get started
+## Project Description
 
-1. Install dependencies
+Gaintrack is an open-source mobile trading application designed to empower you with the tools to navigate the stock market. Built with React Native (Expo) for a smooth user experience, Redux for efficient state management, and Firebase for secure user authentication, Gaintrack currently focuses on the front-end, offering the following functionalities:
+## Features
 
-   ```bash
-   npm install
-   ```
+- **Create Watchlists**: Build personalized watchlists by adding stocks you're interested in tracking.
+- **Simulate Order Placement**: Experiment with simulated order placement to gain confidence before making real trades (backend functionality not yet implemented)
+- **Create GTC Orders (Future)**: Plan your trading strategies with Good-Til-Canceled orders, valid for up to 1 year (backend functionality to be implemented in the future).
+- **Access Stock Market News**: Stay informed with the latest developments impacting the market.
+- **View Global Market Reports**: Gain valuable insights from comprehensive global market reports.
 
-2. Start the app
 
-   ```bash
-    npx expo start
-   ```
+## Disclaimer:
 
-In the output, you'll find options to open the app in a
+Important Note: Currently, Gaintrack does not connect to real trading platforms and cannot execute actual trades. The order placement and GTC order features are purely for simulation purposes.
+## Getting Started
+While the backend functionality is under development, you can still explore the non-functional aspects of the app to familiarize yourself with Gaintrack's interface and features.## Prerequisites
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Please ensure you have Node.js and either npm or yarn installed on your machine. You can download and install them from the official websites:
+- [Node.js](https://nodejs.org/en)
+- npm (included with Node.js installation)
+- [yarn](https://classic.yarnpkg.com/lang/en/docs/install/)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Steps to Set Up and Run the Project
 
-## Get a fresh project
+### Clone the Repository
 
-When you're ready, run:
+If you haven't already, clone the Gaintrack repository from GitHub using Git:
 
 ```bash
-npm run reset-project
+git clone https://github.com/WorkwithJagdeep/gaintrack.git
+
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+```bash
+cd gaintrack
+```
 
-## Learn more
+### Install Dependencies
 
-To learn more about developing your project with Expo, look at the following resources:
+Run the following command in your terminal to install all the project dependencies listed in the package.json file:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
+(If you're using yarn, the command would be yarn install.)
 
-## Join the community
 
-Join our community of developers creating universal apps.
+### Start the Development Server:
+Once the dependencies are installed, run the following command to start the development server:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+ npx expo run:android 
+```
+
+## Usage
+
+Follow the instructions above to set up and run the Gaintrack application. Make sure to use the Expo Go app to scan the QR code and start the app on your mobile device.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit pull requests for review.
+
+## License
+
+This project is licensed under the MIT License.
